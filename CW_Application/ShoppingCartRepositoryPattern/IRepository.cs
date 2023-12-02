@@ -10,6 +10,6 @@ namespace ShoppingCartRepositoryPattern
     {
         List<Product> GetProducts();
         void AddProduct(Product product);
-        void RemoveProduct(int Id);
+        void RemoveProduct(Product product);
     }
 }
